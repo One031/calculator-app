@@ -1,0 +1,74 @@
+
+/* 
+    Created on : 23 Jul 2024, 10:58:53
+    Author     : oneaz
+*/
+
+/* Define general properties for the application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-background-color:  linear-gradient(to top, rgba(41,99,179,1) 35%, rgba(186,186,186,1) 100%);
+    -fx-padding: 10;
+    
+}
+
+
+/* Style the buttons */
+
+.button {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 50%, rgba(59,125,198,1) 48%, rgba(114,149,203,1) 100%); /* Darker blue */
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #002244; /* Even darker blue on hover */
+}
+
+
+
+.button:pressed {
+    -fx-background-color: #c0c0c0;
+}
+
+.button.operation {
+    -fx-background-color: #f9a825;
+    -fx-text-fill: #fff;
+}
+
+.button.operation:hover {
+    -fx-background-color: #f57f17;
+}
+
+.button.operation:pressed {
+    -fx-background-color: #ef6c00;
+}
+
+.button.equal {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: #fff;
+}
+
+.button.equal:hover {
+    -fx-background-color: #388e3c;
+}
+
+.button.equal:pressed {
+    -fx-background-color: #2e7d32;
+}
+
+.text-field {
+    -fx-alignment: center-right; 
+    -fx-border-color: rgb(158,204,255); /* Faint border color */
+    -fx-border-width: 1; /* Border width */
+    -fx-border-radius: 5; /* Rounded corners */
+    -fx-font-size: 30px;
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-padding: 0; /* Optional: remove padding if needed */
+}

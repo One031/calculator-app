@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="318.0" prefWidth="291.0" stylesheets="@calculatorstyle.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.admin.calculatorapp.CalculatorController">
+   <children>
+      <Button fx:id="btn_Addition" layoutX="40.0" layoutY="84.0" mnemonicParsing="false" onAction="#btn_Addition" prefHeight="25.0" prefWidth="36.0" text="+">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_subtract" layoutX="106.0" layoutY="84.0" mnemonicParsing="false" onAction="#btn_subtract" prefHeight="25.0" prefWidth="36.0" text="-">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_multiply" layoutX="165.0" layoutY="84.0" mnemonicParsing="false" onAction="#btn_multiply" prefHeight="25.0" prefWidth="36.0" text="×">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_division" layoutX="225.0" layoutY="84.0" mnemonicParsing="false" onAction="#btn_division" prefHeight="25.0" prefWidth="36.0" text="÷">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_zero" layoutX="40.0" layoutY="130.0" mnemonicParsing="false" onAction="#btn_zero" prefHeight="25.0" prefWidth="36.0" text="0" />
+      <Button fx:id="btn_five" layoutX="106.0" layoutY="174.0" mnemonicParsing="false" onAction="#btn_five" prefHeight="25.0" prefWidth="36.0" text="5" />
+      <Button fx:id="btn_four" layoutX="40.0" layoutY="174.0" mnemonicParsing="false" onAction="#btn_four" prefHeight="25.0" prefWidth="36.0" text="4" />
+      <Button fx:id="btn_three" layoutX="225.0" layoutY="128.0" mnemonicParsing="false" onAction="#btn_three" prefHeight="25.0" prefWidth="36.0" text="3" />
+      <Button fx:id="btn_two" layoutX="165.0" layoutY="128.0" mnemonicParsing="false" onAction="#btn_two" prefHeight="25.0" prefWidth="36.0" text="2" />
+      <Button fx:id="btn_one" layoutX="106.0" layoutY="128.0" mnemonicParsing="false" onAction="#btn_one" prefHeight="25.0" prefWidth="36.0" text="1" />
+      <Button fx:id="btn_eight" layoutX="40.0" layoutY="224.0" mnemonicParsing="false" onAction="#btn_eight" prefHeight="25.0" prefWidth="36.0" text="8" />
+      <Button fx:id="btn_seven" layoutX="225.0" layoutY="172.0" mnemonicParsing="false" onAction="#btn_seven" prefHeight="25.0" prefWidth="36.0" text="7" />
+      <Button fx:id="btn_six" layoutX="165.0" layoutY="174.0" mnemonicParsing="false" onAction="#btn_six" prefHeight="25.0" prefWidth="36.0" text="6" />
+      <Button fx:id="btn_operation" layoutX="225.0" layoutY="224.0" mnemonicParsing="false" onAction="#btn_operation" prefHeight="25.0" prefWidth="36.0" text="=" />
+      <Button fx:id="btn_comma" layoutX="167.0" layoutY="224.0" mnemonicParsing="false" onAction="#btn_comma" prefHeight="25.0" prefWidth="36.0" text="." />
+      <Button fx:id="btn_nine" layoutX="106.0" layoutY="224.0" mnemonicParsing="false" onAction="#btn_nine" prefHeight="25.0" prefWidth="36.0" text="9" />
+      <Button fx:id="btn_reset" layoutX="50.0" layoutY="276.0" mnemonicParsing="false" onAction="#btn_reset" text="reset" />
+      <Button fx:id="btn_clear" layoutX="201.0" layoutY="276.0" mnemonicParsing="false" onAction="#btn_clear" text="clear" />
+      <TextField fx:id="inputID" layoutX="39.0" layoutY="11.0" prefHeight="55.0" prefWidth="221.0" />
+      <Accordion layoutX="84.0" layoutY="-75.0">
+        <panes>
+          <TitledPane animated="false" text="untitled 3" />
+          <TitledPane animated="false" text="untitled 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </TitledPane>
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>
